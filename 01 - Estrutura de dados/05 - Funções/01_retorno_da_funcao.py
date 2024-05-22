@@ -8,6 +8,10 @@ def retorna_antecessor_e_sucessor(numero):
 
     return antecessor, sucessor
 
+def func_teste():
+    print("Olá mundo!")
+    #return None
 
 print(calcular_total([10, 20, 34]))  # 64
 print(retorna_antecessor_e_sucessor(10))  # (9, 11)
+print(func_teste())
