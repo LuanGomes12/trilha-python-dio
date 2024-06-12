@@ -19,6 +19,8 @@ class Aviao(Passaro):
         print("Avião está decolando...")
 
 
+# Conceito de polimorfismo está aqui
+# O objeto se comporta de maneiras diferentes, mas usa o mesmo método, independente do objeto
 def plano_voo(obj):
     obj.voar()
 
